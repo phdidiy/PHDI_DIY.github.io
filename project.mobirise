@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-07-26_1545-clone",
-    "currentPage": "page12.html",
+    "currentPage": "page21.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -3841,63 +3841,6 @@
         "title": "Perayaaan Nyepi"
       },
       "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            "& when (@fullWidth)": {
-              ".text-wrapper": {
-                "padding": "1rem"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".image-wrapper": {
-                "margin-bottom": "1rem"
-              }
-            },
-            "img": {
-              "width": "100%"
-            },
-            "@media (min-width: 992px)": {
-              ".text-wrapper": {
-                "padding": "2rem"
-              }
-            }
-          },
-          "_name": "image1",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f5c904\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/prambanan2-phdi-700x465.jpg\" alt=\"Mobirise Website Builder\">\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">Perayaan Nyepi</p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Perayaan Nyepi</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Kegiatan ini merupakan salah satu rangkaian acara peringatan Nyepi 2015 di Yogyakarta. Uniknya, para penari yang mengikuti kegiatan ini tidak hanya berasal dari umat Hindu, tetapi datang dari berbagai lintas agama.\n<br>Tari Pendet asal Bali ini dipilih panitia karena tarian ini dianggap sudah dikenal baik dan populer di masyarakat. Selain tari, diadakan juga lomba musik dan menggambar di pelataran candi Hindu ini.<br>\n<br>SUSUNAN  PANITIA HARI SUCI  NYEPI TAHUN  SAKA 1945( 2023 M)<br>DAERAH ISTIMEWA YOGYAKARTA<br>(Pengukuhan tanggal 23 Desember 2022 di Pura Jagatnatha jam 19.00 WIB)<br> <br>Pelindung​​:​1. Gubernur D.I. Yogyakarta<br>2. Kakannwil Kementrian Agama  DIY<br>3. Parisada Hindu Dharma Indonesia  DIY<br> <br>Penasehat​​:​1. Ida Bagus Agung (Ketua Paruman Welaka PHDI DIY)<br>2. Didik Widya Putra (Pembimas Hindu Kanwil  DIY)<br> <br>Tim Pengarah​:​1. I Made Astra Tanaya (Ketua Tim)<br>​​​​2. AAGN Ari Dwipayana<br>3. I Nyoman Gunarsa<br> <br> <br>Ketua Umum​: ​: Wayan T. Artama<br>Ketua I​​: Dewa Putu Gede Raka​<br>Ketua II​​: Putu Sugiarta​<br>Ketua III​​: I Nengah Lotama​<br>Sekretaris Umum​: I Wayan Ordiyasa​<br>Sekretaris I​​: Saruda Widodo​<br>Sekretaris II​​: Rizky Sahat Febriyansah<br>Staf Sekretariat​: 1. Ruspitasari<br>​​​  2.Tri Sukoharjo<br>Bendahara Umum​: Ni Nyoman Trisnawati<br>Bendahara I               : I Gede Adi Atmaja<br>Bendahara II              : Galuh Kusumowardani​ ​<br>Staf Bendahara​: 1. Mujirah​<br>​​​ 2. Putu Raditya Octadewi​<br> <br>Seksi Yadnya​​: ​Suryani Mertha Sari /Bu Agung Mahayana (Koordinator)<br>Dewa Gede Putra<br>Ketut  Suwamba<br>Ibu Nengah Beratha<br>​​​​Ibu Made Astra Tanaya<br>​​​​Ni Made Sulisuarsidi<br>I Nyoman Suaba<br>Ibu Dewa Putra<br>​​​​Ibu Pudja Soegata<br>​​​​Ibu Wayan Suardana<br>​​​​Ibu Komang Supraptini Suwenda<br>​​​​Ibu Iswantin<br>​​​​Ibu Suwarti Nyoman Wirawan<br>​​​​Ibu Nyoman Metra<br>​​​​Ibu Dewa Raka<br>Ibu Wayan Sukarma<br>Ibu Nyoman Redana<br>Ibu Nyoman Ariana<br>Ibu Made Worda Negara<br>Ibu Ngurah Ari Utama<br>Ibu Gede Suardana<br>​​​<br>Seksi Sulinggih dan Pinandhita: Jero Gede Dwija Triman (Koordinator)<br>Jero Gede Dwija Achir Murtiadiwiyana<br>Wasi Wagimin​​​<br>​​​​Marsahid<br>​​​​Nengah Astawan<br>​​​​<br>Seksi Dana​​: ​I Made Witara (Tempek Dharma Santi) (Koordinator)​<br>I Made Resia (Pesantian Dharma Laksana/Tempek Lanud)<br>​​​​Dewa Putu Ari Wangsa (Pesantian Daksina Puri/Tempek<br>Selatan)<br>​​​​Gede Dharmika (Pesantian Tirta Arum)<br>Wayan Durma (Pesantian Dharma Santhi)<br>​​​​I Nyoman Wija (Pesantian Catur Sari)<br>​​​​I Nyoman Cakra Negara(Pesantian Sarswati)<br>​​​​Gusti Putu Setiawan (Pesantian Sedana Yoga/Tempek Tengah)<br>​I Gusti Ketut Puja (Pesantian Eka Cita Drama/ Tempek Utara)<br>Nyoman Sri Narsih (Pesantian Eka Purna Bhakti) Pathuk <br>Edy Sutopo (Paguyuban Umat Hindu Banguntapan)<br>Suyudi (Paguyuban Umat Hindu Seyegan)<br>Warsiyatna (Paguyuban Umat Hindu Kalasan)<br>Widiyantoro (Paguyuban Umat Hindu Kretek)<br>Ibu Purwati (Paguyuban Umat Hindu Gunungkidul)<br> <br>Seksi Konsumsi​:​Ibu Noorsatiti Yudhiwati  (Koordinator)<br>​​​​Ibu Mamik<br>​​​​Ibu Nunung<br>​​​​Ibu Pujiyanti Ordiyasa<br>​​​​Ibu Ini Ary Dibyono<br>​​​​Ibu Dwi Candra Gusti Wirta<br>​​​​Ibu Budi Rahayu<br>​​​​Ibu Triana<br>​​​​Ibu Nuryani<br>​​​​Ibu Sukirah<br>​​​​Ibu Eni Pertiwi<br>​​​​Ibu Inung Jayawardana<br>​​​​Ibu Erva Krishna<br>​​​​Ibu Ratna Landep<br>​​​​Ibu Retno Yayik<br>​​​​​​​​Seksi Publikasi dan<br>Dokumentasi: ​​Ayu Kinasih (Koordinator)<br>I Made Sumiarta<br>​​​​I Made Tirta<br>​​​​Andi Setyo Putro<br>​​​​Galih Santam Suputra<br>​​​​Made Aditya Abhi Ganika<br>Seksi Bhakti Sosial​:​Gede Suwardana (Koordinator)<br>Ibu Suci Mulyani<br>​​​​Adi Prasojo<br>​​​​Iswara<br>​​​​Made Indra Prayoga<br>​​​​Putu Dipa Widnyana<br>Seksi Kesehatan​: ​Ni Made Purianti(Bethesda) (Koordinator)<br>​​​​I Nyoman Metra<br>​​​​dr. Ida Bagus Surya Pidada<br>​​​​Seksi Keamanan​: ​I Wayan Budiarta (Koordinator)<br>Dewa Kompyang Suteja<br>Nengah Artha Wardana<br>Putu Rio Andika<br>Nengah Septi Aan<br>I Ketut Jaya<br>Triyono<br>Ketut Witera<br>Made Sukedi<br>Made Wenten<br>Dewa Putu Artana<br>Nyoman Rahayu<br>Wayan Muliarta<br>Nyoman Sureca<br>Nyoman Namayasa<br>Seksi Perlengkapan​:​I Gusti Made Wirta (Koordinator)<br>Sutarto Darmanto(Mas Taryo)<br>​​​​Made Jangga<br>​​​​Dwi Winarto<br>​​​​Made Neso<br>​​​​Gede Darma<br>​​​​Putu Darsana<br>​​​​Taryadi<br>​​​​Tarmaji<br>​​​​Seno Warsito​<br>​​​​Punggowo Pura Jagatnatha Banguntopo<br>Seksi Transportasi​:​I Gusti Nyoman Chandra (Koordinator)<br>​​​​I Ketut Mardiyasa<br>​​​​Ketut Sandiada<br>​​​​Nyoman Wiyasa<br>​​​​Gede Sukiada​<br>​​​​Ketut Adi Putra (Jabrik)​​​​​<br>Seksi Kesenian​: ​I Nyoman Cau Arsana (Koordinator)<br>​​​​Kadek Dwi Santika<br>​​​​Putu Sari<br>​​​​Budi Sanyoto<br>​​​​Giran<br>​​​​Ni Nyoman Seriati<br>​​​​Ni Kadek Rai Dewi Astini<br>​​​​Niluh Putu Wiardani Astuti<br>Seksi Dharma Tula​:​Budi Raharjo (Koordinator)<br>​​​​Nuning Nirmalawati<br>Ida Saraswati<br>Kardi Widiyanto<br>AA. Istri Rarasati<br>I Nyoman Santiawan<br>Warni<br>​​​​Penyuluh Non PNS<br>​​​​​​​seksi Acara​​: ​Ida Made Panji (Tempekan Saraswati) (Koordinator)<br>​​​​Made Worda Negara<br>Ni Nyoman Yudi Riyani.<br>​​​​Seksi Protokoler​:​Pande Made Kutanegara (Koordinator)<br>​​​​Purwanto(Bimas Hindu)<br>Priyanto (Bimas Hindu )<br>​​​​Untung Waluyo<br>​​Seksi Perijinan​:​Wayan Gundana (Koordinator)<br>​​​​I Made Wira (Polda DIY)<br>​​​​Ketut Suardana<br>​​​​Seksi Pawai Budaya​:​Ketut Idep (Koordinator)<br>​​​​Ida Bagus Maming<br>​​​​Puput Warih<br>​​​​AA. Mahayana<br>​​​Seksi Dharma Santi​: ​Ibu Lutfiana Wayan Senen (Koordinator)<br>I Gusti Ngurah Putra.<br> <br>​Ketua III mengkoordinir:<br>1. Seksi Publikasi<br>2. Seksi Bakti Sosial<br>3. Seksi Keamanan<br>4. Seksi Kesehatan<br>5. Seksi Perijinan<br>6. Seksi Pawai Budaya<br>\n<br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "trACf1mdqu",
-          "_anchor": "image1-1o",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
         {
           "alias": false,
           "_styles": {
